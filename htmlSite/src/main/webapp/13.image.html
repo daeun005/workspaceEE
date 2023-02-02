@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8" />	
+	<title>image 요소 연습</title>
+</head>
+<!-- 
+	img : 이미지태그
+	  - src속성 : image uri
+ -->
+<body>
+	<h2>절대경로[http://~ 로시작하는경로]</h2><hr>
+	<h4>다른 싸이트에있는 이미지</h4>
+	<div>
+		<img width="80" height="80" src="https://www.gong-cha.co.kr/uploads/product/20221028/scfYCq4hweEBzxIA_20221028.jpg" alt ="추버요">
+		<img width="80" height="80" src="https://www.gong-cha.co.kr/uploads/product/20220705/IPMADF3ShN0KZxUT_20220705.png">
+		<img width="80" height="80" src="https://www.gong-cha.co.kr/uploads/product/20221028/oJ1aqciOpZRjBuFE_20221028.jpg">
+		<img width="80" height="80" src="https://www.gong-cha.co.kr/uploads/product/20211013/0zPJKLep9EZtcys2_20211013.png">
+
+	</div>
+	<h4>같은 싸이트에있는 이미지</h4>
+	<div>
+		<img src="http://192.168.15.6/htmlSite/penguin1.gif">
+		<img src="http://192.168.15.6/htmlSite/penguin2.gif">
+		<img src="http://192.168.15.6/htmlSite/penguin3.gif">
+		<br>
+		<img src="http://192.168.15.6/htmlSite/image/android_logo.gif" width="80px" height="80px">
+		<img src="http://192.168.15.6/htmlSite/image/androids.gif" width="80" height="80">
+		<img src="" width="80" height="80">
+		<img src="" width="80" height="80">
+		<img src="" width="80" height="80">
+		<img src="" width="80" height="80">
+	</div>
+	<hr>
+	<h2>상대경로[http://~ 로시작하지않는경로]</h2><hr>
+	<h4>같은 싸이트에있는 이미지-->기준경로 [http://localhost/htmlSite/]</h4>
+	<div>
+		<img src="./penguin1.gif">
+		<img src="./penguin2.gif">
+		<img src="./penguin3.gif">
+		<br>
+		<img src="./image/android_logo.gif" width="80px" height="80px">
+		<img src="./image/androids.gif" width="80" height="80">
+		<img src="" width="80" height="80">
+		<img src="" width="80" height="80">
+		<img src="" width="80" height="80">
+		<img src="" width="80" height="80">
+	</div>
+	<h3>image에 링크(a tag)걸기</h3><br>
+	<div>
+		<a href='/servletSite/lifecycle_counter.do'><img src='./penguin1.gif' width="80" height="80"></a>	
+		<a href='/servletSite/gugudan.do'><img src='./penguin2.gif' width="80" height="80"></a>	
+		
+		</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
