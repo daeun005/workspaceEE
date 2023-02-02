@@ -154,7 +154,7 @@
 
         
 
-      <Context docBase="addressSite" path="/addressSite" reloadable="true" source="org.eclipse.jst.jee.server:addressSite"/><Context docBase="servletSite" path="/servletSite" reloadable="true" source="org.eclipse.jst.jee.server:servletSite"/><Context docBase="JspSite" path="/JspSite" reloadable="true" source="org.eclipse.jst.jee.server:JspSite"/><Context docBase="addressJspSite" path="/addressJspSite" reloadable="true" source="org.eclipse.jst.jee.server:addressJspSite"/><Context docBase="javscriptSite" path="/javscriptSite" reloadable="true" source="org.eclipse.jst.jee.server:javscriptSite"/><Context docBase="htmlSite" path="/htmlSite" reloadable="true" source="org.eclipse.jst.jee.server:htmlSite"/><Context docBase="user_model" path="/user_model" reloadable="true" source="org.eclipse.jst.jee.server:user_model"/><Context docBase="guest_model" path="/guest_model" reloadable="true" source="org.eclipse.jst.jee.server:guest_model"/><Context docBase="board_model1" path="/board_model1" reloadable="true" source="org.eclipse.jst.jee.server:board_model1"/></Host>
+      <Context docBase="JspSite" path="/JspSite" reloadable="true" source="org.eclipse.jst.jee.server:JspSite"/></Host>
     </Engine>
   </Service>
 </Server>
