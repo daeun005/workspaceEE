@@ -11,6 +11,7 @@ import javax.sql.DataSource;
 import org.apache.tomcat.dbcp.dbcp2.BasicDataSource;
 
 
+
 public class BoardDataInsertMain {
 	public static void main(String[] args) throws Exception{
 		Connection con = null;
@@ -33,6 +34,7 @@ public class BoardDataInsertMain {
 						+ "board_sequence.nextval," + "'게시판타이틀'||board_sequence.currval ,"
 						+ "'김경호'||board_sequence.currval," + "'content'||board_sequence.currval,"
 						+ "board_sequence.currval," + "1)");
+
 			}
 			int[] updateCounts = stmt.executeBatch();
 			System.out.println("query 수:" + updateCounts.length);
