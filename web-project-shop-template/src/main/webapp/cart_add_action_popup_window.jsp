@@ -3,16 +3,17 @@
 	pageEncoding="UTF-8"%>
 
 <%
-
-
 	if(request.getMethod().equalsIgnoreCase("GET")){
 		response.sendRedirect("product_list.jsp");
 		return;
 	}
-	/*
-	1.파라메타받기(cart_qty,p_no)
-	2.장바구니에 제품을담고
-	*/
+
+	String cart_qty = request.getParameter("cart_qty");
+	String p_no = request.getParameter("p_no");
+	
+	CartService cartService = new CartService();
+
+
 	
 %>
 

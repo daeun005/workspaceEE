@@ -12,5 +12,5 @@ public class UserSQL {
 	public final static String USER_SELECT_ALL=
 	"select userid,password,name,email from userinfo";
 	public final static String USER_SELECT_BY_ID_COUNT=
-	"select count(*) cnt from userinfo where userid=?";
+			"select count(*) cnt from userinfo where userid=?";
 }

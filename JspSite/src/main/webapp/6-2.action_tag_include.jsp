@@ -10,8 +10,9 @@
 <h1>jsp action tag [include]</h1>
 <h2>형태:&lt;jsp:include page="xxx.jsp"&gt;</h2>
 <hr/>
-
+<%=request%>
 <jsp:include page="6-2.action_tag_included_top.jsp"/>
+
 <ol type="A">
 	<li>content</li>
 	<li>content</li>
@@ -32,6 +33,7 @@
 	<li>content</li>
 	<li>content</li>
 </ol>
-<jsp:include page="6-2.action_tag_included_footer.jsp"></jsp:include>
+
+<jsp:include page="6-2.action_tag_included_footer.jsp"/>
 </body>
 </html>

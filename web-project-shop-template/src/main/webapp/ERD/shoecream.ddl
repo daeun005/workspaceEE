@@ -6,7 +6,7 @@ CREATE TABLE userinfo(
 		user_password                 		VARCHAR2(20)		 NOT NULL,
 		user_name                     		VARCHAR2(20)		 NOT NULL,
 		user_phone                    		VARCHAR2(20)		 NOT NULL,
-		user_email                    		VARCHAR2(50)		 NOT N ULL,
+		user_email                    		VARCHAR2(50)		 NOT NULL,
 		user_address                  		VARCHAR2(100)		 NULL 
 );
 
